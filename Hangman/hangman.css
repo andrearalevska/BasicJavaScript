@@ -1,0 +1,68 @@
+* {
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(170, 124, 213);
+}
+
+#alphabet>* {
+    background-color: rgb(54, 159, 136);
+    height: 50px;
+    width:50px;
+    border-radius:5px;
+    font-size: 25px;
+    font-weight:bold;
+}
+
+#sketch {
+    
+    border-style: dotted;
+    width:200px;
+    height:200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    gap: 1;
+}
+#hint, #playagain {
+    background-color: rgb(164, 220, 238);
+    width:100px;
+    height:50px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#lines {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+}
+#reveal-lines {
+    position: relative;
+    top: 35px;
+    gap: 12px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div-lives {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
+
+#body1 {
+    display: flex;
+    flex-direction: row;
+}
+#body2 {
+    display: flex;
+    flex-direction: row;
+}

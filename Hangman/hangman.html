@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Winter Homework</title>
+    <link href="hangman.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 id="header">HANGMAN</h1>
+    <p>
+      Use the alphabet below to guess the word, or click hint to get a clue.
+    </p>
+    <div id="alphabet"></div>
+    <p>The Choosen Category is FRUIT</p> 
+    <p id="hint-text"></p>
+    <div id="div-lives">
+      <p id="text1">Lives =</p>
+      <p id="lives">6</p>
+      <p id="gameover"></p>
+    </div>
+    <div id="reveal-lines"></div>
+    <div id="lines"></div>
+    <div id="sketch">
+      <h1>|</h1>
+      <h1 id="head">O</h1>
+      <div id="body1">
+        <h1 id="leftArm">/</h1>
+        <h1 id="body">|</h1>
+        <h1 id="rightArm">\</h1>
+      </div>
+
+      <div id="body2">
+        <h1 id="leftLeg">/</h1>
+        <h1 id="rightLeg">\</h1>
+      </div>
+    </div>
+    <br />
+    <button onclick="getHint()" id="hint">Hint</button>
+    <button onclick="playAgain()" id="playagain">Play Again</button>
+    <script src="hangman.js"></script>
+  </body>
+</html>
